@@ -10,10 +10,26 @@ To complete the assignmente we need to :
 - Deploy the application in Heroku with a MongoDB using MongoDB Atlas.
 
 ## Terminal
-
+npm run develop {to include both the fornt-end and the back-end}
 
 ## Content
+- apollo packages installed
+- Server:
+    - serverjs. file to manage the back-end
+    - apollo-server-express package
+    - schemas with the resolvers and typeDefs
+    - routes for the api directions
+    - models for the user and books information administration
+    - controllers and config connections
+- Client/src:
+    - App.js to administrate the front end
+    - components for the different sections on the webpage
+    - pages for the saved books and search books pages
 
 ## Learinings
+From this project I learned how to switch from RESTful API into GraphQL.
+I also reherced how to implement the different packages both inside the Server and Client directories and at the general booksearchengine one.
+Finally, it is necessary to update this app through Heroku using the MongoDB Atlas so I reherced this once again.
 
 ## Credits
+I would like thanks my tutor <cite>Alexis San Javier</cite> for helping me with explenations and walking me through out my mistakes!!!
